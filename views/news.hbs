@@ -1,0 +1,8 @@
+<link rel="stylesheet" href="/styles/news.css">
+<br>
+    <div class="car"><h1 class="gal">Главная</h1></div>
+    <ul>
+        {{#each news}}
+            <div class="newsBlock"><li><a href="/newsId/{{_id}}">{{header}}</a><hr></li></div>
+            {{/each}}
+    </ul>

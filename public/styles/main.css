@@ -1,0 +1,62 @@
+/*header*/
+.header{
+    width: 1499px;
+    height: 90px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+    border-radius: 5px;
+    background-color: white;
+    margin: 0 auto;
+    
+}
+.avatar {
+    width: 230px;
+    height: 48px;
+    background-color: blue;
+    color: white;
+    box-shadow: 0 0 3px rgba(0,0,0,0.5);
+    border-radius: 5px;
+    margin-right: auto;
+    margin-left: 20px;
+    margin-top: 20px;
+               
+}
+.nameAvatar{
+    text-align: center;
+    font-size: 19px;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    
+}
+.menu{
+    display: flex;
+    margin-top: 30px;
+}
+.menu li a {
+    color: blue;
+    margin-right: 40px;
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.menu li a:hover{
+    color:cornflowerblue;
+    
+}
+ul li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+/*header*/
+/*section*/
+.section{
+width: 1500px;
+height: auto;
+background-color: white;
+margin: 0 auto;
+border-radius: 5px;
+box-shadow: 0 0 3px rgba(0,0,0,0.5);
+}
+/*section*/

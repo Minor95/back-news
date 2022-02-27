@@ -1,0 +1,28 @@
+.matBlock{
+    width: 1400px;
+    height: auto;
+    
+    
+}
+.headerZag{
+    text-align: center;
+}
+.newsText{
+    font-size: 26px;
+    width: 1250px ;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow:inset 0px 0px 3px  rgb(0, 0, 0);
+}
+.imgNews{
+    width: 500px;
+    height: auto;
+    margin-left: 450px;
+}
+.matComment{
+     margin-left: 70px;
+     font-size: 26px;
+     
+}
