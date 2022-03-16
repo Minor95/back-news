@@ -1,28 +1,27 @@
-<link rel="stylesheet" href="/styles/one-news.css">
-<br>
+<link rel="stylesheet" href="/styles/one-news.css" />
+<br />
 <div class="matBlock">
-{{#each oneNews}}
-<h1 class="headerZag">
-{{header}}
-</h1>
-<img class="imgNews" src="{{photo}}" alt="">
-<br>
-<div class="newsText">{{text}}</div>
-{{/each}}
-<br>
-<div class="matComment">
-<h2>Комментарии</h2>
-<hr>    
-{{#each comments}}
-<div class="commentName">
-<b>{{name}}</b>
+  {{#each oneNews}}
+    <h1 class="headerZag">
+      {{header}}
+    </h1>
+    <img class="imgNews" src="{{photo}}" alt="" />
+    <br />
+    <div class="newsText">{{text}}</div>
+  {{/each}}
+  <br />
+  <div class="matComment">
+    <h2>Комментарии</h2>
+    <hr />
+    {{#each comments}}
+      <div class="commentName">
+        <b>{{name}}</b>
+      </div>
+      <div class="commentText">
+        <i>{{text}}</i>
+      </div>
+      <hr />
+    {{/each}}
+  </div>
 </div>
-<div class="commentText">
-<i>{{text}}</i>
-</div>
-<hr>
-{{/each}}     
-</div>
-</div>
-<br>
-
+<br />
